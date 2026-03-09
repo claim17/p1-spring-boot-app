@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cf6e237-038f-4737-a10a-c6d21ba70fef" name="Changes" comment="modificacion del palindromo (service , controller y form)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/demoapp/service/PalindromoServiceTest.java" afterDir="false" />
+    <list default="true" id="9cf6e237-038f-4737-a10a-c6d21ba70fef" name="Changes" comment="modificacion del palindromo (he modificado el readme y he añadido los tests)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/demoapp/controller/ParImparController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demoapp/service/ParImparService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/FormParImpar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demoapp/ParImparServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,38 +58,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JUnit.MockMvcTest and 2 more.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MockMvcTest.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jaume/Desktop/ATSD/ATSD-Ex1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.MockMvcTest and 2 more.executor": "Run",
+    "JUnit.MockMvcTest.executor": "Run",
+    "JUnit.PalindromoServiceTest.testEsPalindromoConEspacios.executor": "Run",
+    "JUnit.PalindromoServiceTest.testEsPalindromoSimple.executor": "Run",
+    "JUnit.PalindromoServiceTest.testNoEsPalindromo.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.Application.executor": "Run",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jaume/Desktop/ATSD/ATSD-Ex1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="demoapp" />
+    </key>
+  </component>
   <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="MockMvcTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoapp" />
@@ -117,6 +126,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PalindromoServiceTest.testEsPalindromoConEspacios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demoapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demoapp" />
+      <option name="MAIN_CLASS_NAME" value="demoapp.PalindromoServiceTest" />
+      <option name="METHOD_NAME" value="testEsPalindromoConEspacios" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromoServiceTest.testEsPalindromoSimple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demoapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demoapp" />
+      <option name="MAIN_CLASS_NAME" value="demoapp.PalindromoServiceTest" />
+      <option name="METHOD_NAME" value="testEsPalindromoSimple" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromoServiceTest.testNoEsPalindromo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demoapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demoapp" />
+      <option name="MAIN_CLASS_NAME" value="demoapp.PalindromoServiceTest" />
+      <option name="METHOD_NAME" value="testNoEsPalindromo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="demoapp" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="demoapp.Application" />
@@ -126,6 +183,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PalindromoServiceTest.testNoEsPalindromo" />
+        <item itemvalue="JUnit.PalindromoServiceTest.testEsPalindromoConEspacios" />
+        <item itemvalue="JUnit.PalindromoServiceTest.testEsPalindromoSimple" />
         <item itemvalue="JUnit.MockMvcTest and 2 more" />
         <item itemvalue="JUnit.MockMvcTest" />
       </list>
@@ -156,7 +216,7 @@
       <workItem from="1773074212908" duration="1648000" />
       <workItem from="1773075889407" duration="559000" />
       <workItem from="1773076473376" duration="8901000" />
-      <workItem from="1773096487360" duration="297000" />
+      <workItem from="1773096487360" duration="1322000" />
     </task>
     <task id="LOCAL-00001" summary="Archivos originales de clase">
       <option name="closed" value="true" />
@@ -182,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773095432931</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="modificacion del palindromo (he modificado el readme y he añadido los tests)">
+      <option name="closed" value="true" />
+      <created>1773096958842</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1773096958842</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +283,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Archivos originales de clase" />
     <MESSAGE value="modificacion del palindromo (service , controller y form)" />
-    <option name="LAST_COMMIT_MESSAGE" value="modificacion del palindromo (service , controller y form)" />
+    <MESSAGE value="modificacion del palindromo (he modificado el readme y he añadido los tests)" />
+    <option name="LAST_COMMIT_MESSAGE" value="modificacion del palindromo (he modificado el readme y he añadido los tests)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
