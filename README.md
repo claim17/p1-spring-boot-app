@@ -32,3 +32,4 @@ Una vez lanzada la aplicación puedes abrir un navegador y probar los distintos 
 - [http://localhost:8080/saludoform](http://localhost:8080/saludoform)
 - [http://localhost:8080/validar](http://localhost:8080/validar)
 - [http://localhost:8080/par-impar](http://localhost:8080/par-impar)
+- [http://localhost:8080/cuadrado](http://localhost:8080/cuadrado)
