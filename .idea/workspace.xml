@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cf6e237-038f-4737-a10a-c6d21ba70fef" name="Changes" comment="modificacion de Calculadora( he metido la pagina en el README.md junto con la documentacion de lo demas, he modificado el /validar por &#10;/palindrome y he creado los tests , el controlador el service y el form de la calculadora)">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/demoapp/MockMvcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demoapp/MockMvcTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="9cf6e237-038f-4737-a10a-c6d21ba70fef" name="Changes" comment="He creado el doker file y he puesto los dos repositorios en la memoria , en el README.md." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,7 +219,7 @@
       <workItem from="1773076473376" duration="8901000" />
       <workItem from="1773096487360" duration="3385000" />
       <workItem from="1773160557283" duration="1145000" />
-      <workItem from="1773173923570" duration="2981000" />
+      <workItem from="1773173923570" duration="4239000" />
     </task>
     <task id="LOCAL-00001" summary="Archivos originales de clase">
       <option name="closed" value="true" />
@@ -288,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773175188330</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="He creado el doker file y he puesto los dos repositorios en la memoria , en el README.md.">
+      <option name="closed" value="true" />
+      <created>1773177521244</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1773177521244</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +331,8 @@
     <MESSAGE value="modificacion del cuadrado(he hecho el controlador el form el service y el test )" />
     <MESSAGE value="modificacion del cuadrado( he metido la pagina en el README.md)" />
     <MESSAGE value="modificacion de Calculadora( he metido la pagina en el README.md junto con la documentacion de lo demas, he modificado el /validar por &#10;/palindrome y he creado los tests , el controlador el service y el form de la calculadora)" />
-    <option name="LAST_COMMIT_MESSAGE" value="modificacion de Calculadora( he metido la pagina en el README.md junto con la documentacion de lo demas, he modificado el /validar por &#10;/palindrome y he creado los tests , el controlador el service y el form de la calculadora)" />
+    <MESSAGE value="He creado el doker file y he puesto los dos repositorios en la memoria , en el README.md." />
+    <option name="LAST_COMMIT_MESSAGE" value="He creado el doker file y he puesto los dos repositorios en la memoria , en el README.md." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

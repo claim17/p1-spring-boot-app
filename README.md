@@ -2,6 +2,8 @@
 
 Aplicación básica usando Spring Boot y plantillas Thymeleaf.
 
+Practa realizada por JAUME CLIMENT RIPOLL.
+
 ## Requisitos
 
 Necesitas tener instalado en tu sistema:
