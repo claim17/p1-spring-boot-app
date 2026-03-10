@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cf6e237-038f-4737-a10a-c6d21ba70fef" name="Changes" comment="modificacion del palindromo (he modificado el readme y he añadido los tests)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/demoapp/controller/ParImparController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/demoapp/service/ParImparService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/FormParImpar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/demoapp/ParImparServiceTest.java" afterDir="false" />
+    <list default="true" id="9cf6e237-038f-4737-a10a-c6d21ba70fef" name="Changes" comment="modificacion del par-inpar (he hecho el controlador el form el service y el test , tambien lo he añadido a el readme)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,20 +94,8 @@
       <recent name="demoapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
-    <configuration name="MockMvcTest and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demoapp" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="demoapp.MockMvcTest" />
-        <pattern testClass="demoapp.MockServiceTest" />
-        <pattern testClass="demoapp.ServiceTest" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MockMvcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CuadradoServiceTest.testNoEsCuadrado">
+    <configuration name="CuadradoServiceTest.testEsCuadradoCorrecto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoapp" />
       <extension name="coverage">
         <pattern>
@@ -120,8 +104,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="demoapp" />
-      <option name="MAIN_CLASS_NAME" value="demoapp.MockMvcTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="demoapp.CuadradoServiceTest" />
+      <option name="METHOD_NAME" value="testEsCuadradoCorrecto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CuadradoServiceTest.testNoEsCuadrado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demoapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demoapp" />
+      <option name="MAIN_CLASS_NAME" value="demoapp.CuadradoServiceTest" />
+      <option name="METHOD_NAME" value="testNoEsCuadrado" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CuadradoServiceTest.testNoEsCuadrado" />
+        <item itemvalue="JUnit.CuadradoServiceTest.testEsCuadradoCorrecto" />
         <item itemvalue="JUnit.PalindromoServiceTest.testNoEsPalindromo" />
         <item itemvalue="JUnit.PalindromoServiceTest.testEsPalindromoConEspacios" />
         <item itemvalue="JUnit.PalindromoServiceTest.testEsPalindromoSimple" />
-        <item itemvalue="JUnit.MockMvcTest and 2 more" />
-        <item itemvalue="JUnit.MockMvcTest" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +217,7 @@
       <workItem from="1773074212908" duration="1648000" />
       <workItem from="1773075889407" duration="559000" />
       <workItem from="1773076473376" duration="8901000" />
-      <workItem from="1773096487360" duration="1322000" />
+      <workItem from="1773096487360" duration="2390000" />
     </task>
     <task id="LOCAL-00001" summary="Archivos originales de clase">
       <option name="closed" value="true" />
@@ -250,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773096958842</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="modificacion del par-inpar (he hecho el controlador el form el service y el test , tambien lo he añadido a el readme)">
+      <option name="closed" value="true" />
+      <created>1773097976213</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1773097976213</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +293,8 @@
     <MESSAGE value="Archivos originales de clase" />
     <MESSAGE value="modificacion del palindromo (service , controller y form)" />
     <MESSAGE value="modificacion del palindromo (he modificado el readme y he añadido los tests)" />
-    <option name="LAST_COMMIT_MESSAGE" value="modificacion del palindromo (he modificado el readme y he añadido los tests)" />
+    <MESSAGE value="modificacion del par-inpar (he hecho el controlador el form el service y el test , tambien lo he añadido a el readme)" />
+    <option name="LAST_COMMIT_MESSAGE" value="modificacion del par-inpar (he hecho el controlador el form el service y el test , tambien lo he añadido a el readme)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
