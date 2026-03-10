@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cf6e237-038f-4737-a10a-c6d21ba70fef" name="Changes" comment="modificacion del par-inpar (he hecho el controlador el form el service y el test , tambien lo he añadido a el readme)">
+    <list default="true" id="9cf6e237-038f-4737-a10a-c6d21ba70fef" name="Changes" comment="modificacion del cuadrado( he metido la pagina en el README.md)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/demoapp/controller/CalculadoraController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/demoapp/service/CalculadoraService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/FormCalculadora.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/demoapp/CalculadoraServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demoapp/controller/PalindromoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demoapp/controller/PalindromoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/FormPalindromo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/FormPalindromo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="27" />
+    <option name="cachedIndexableFilesCount" value="35" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,6 +64,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.CalculadoraServiceTest.executor": "Run",
+    "JUnit.CuadradoServiceTest.testEsCuadradoCorrecto.executor": "Run",
+    "JUnit.CuadradoServiceTest.testNoEsCuadrado.executor": "Run",
     "JUnit.MockMvcTest and 2 more.executor": "Run",
     "JUnit.MockMvcTest.executor": "Run",
     "JUnit.PalindromoServiceTest.testEsPalindromoConEspacios.executor": "Run",
@@ -94,7 +104,22 @@
       <recent name="demoapp" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CuadradoServiceTest.testNoEsCuadrado">
+  <component name="RunManager" selected="JUnit.CalculadoraServiceTest">
+    <configuration name="CalculadoraServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demoapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demoapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demoapp" />
+      <option name="MAIN_CLASS_NAME" value="demoapp.CalculadoraServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CuadradoServiceTest.testEsCuadradoCorrecto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoapp" />
       <extension name="coverage">
@@ -143,22 +168,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromoServiceTest.testEsPalindromoSimple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="demoapp" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demoapp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demoapp" />
-      <option name="MAIN_CLASS_NAME" value="demoapp.PalindromoServiceTest" />
-      <option name="METHOD_NAME" value="testEsPalindromoSimple" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PalindromoServiceTest.testNoEsPalindromo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demoapp" />
       <extension name="coverage">
@@ -184,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculadoraServiceTest" />
         <item itemvalue="JUnit.CuadradoServiceTest.testNoEsCuadrado" />
         <item itemvalue="JUnit.CuadradoServiceTest.testEsCuadradoCorrecto" />
         <item itemvalue="JUnit.PalindromoServiceTest.testNoEsPalindromo" />
         <item itemvalue="JUnit.PalindromoServiceTest.testEsPalindromoConEspacios" />
-        <item itemvalue="JUnit.PalindromoServiceTest.testEsPalindromoSimple" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +226,9 @@
       <workItem from="1773074212908" duration="1648000" />
       <workItem from="1773075889407" duration="559000" />
       <workItem from="1773076473376" duration="8901000" />
-      <workItem from="1773096487360" duration="2390000" />
+      <workItem from="1773096487360" duration="3385000" />
+      <workItem from="1773160557283" duration="1145000" />
+      <workItem from="1773173923570" duration="1138000" />
     </task>
     <task id="LOCAL-00001" summary="Archivos originales de clase">
       <option name="closed" value="true" />
@@ -259,7 +270,23 @@
       <option name="project" value="LOCAL" />
       <updated>1773097976213</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="modificacion del cuadrado(he hecho el controlador el form el service y el test )">
+      <option name="closed" value="true" />
+      <created>1773159833360</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1773159833360</updated>
+    </task>
+    <task id="LOCAL-00007" summary="modificacion del cuadrado( he metido la pagina en el README.md)">
+      <option name="closed" value="true" />
+      <created>1773159910638</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1773159910639</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +321,9 @@
     <MESSAGE value="modificacion del palindromo (service , controller y form)" />
     <MESSAGE value="modificacion del palindromo (he modificado el readme y he añadido los tests)" />
     <MESSAGE value="modificacion del par-inpar (he hecho el controlador el form el service y el test , tambien lo he añadido a el readme)" />
-    <option name="LAST_COMMIT_MESSAGE" value="modificacion del par-inpar (he hecho el controlador el form el service y el test , tambien lo he añadido a el readme)" />
+    <MESSAGE value="modificacion del cuadrado(he hecho el controlador el form el service y el test )" />
+    <MESSAGE value="modificacion del cuadrado( he metido la pagina en el README.md)" />
+    <option name="LAST_COMMIT_MESSAGE" value="modificacion del cuadrado( he metido la pagina en el README.md)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

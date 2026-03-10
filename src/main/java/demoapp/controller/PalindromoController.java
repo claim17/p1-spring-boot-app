@@ -16,12 +16,12 @@ public class PalindromoController {
         this.service = service;
     }
 
-    @GetMapping("/validar")
+    @GetMapping("/palindrome")
     public String mostrarFormulario() {
         return "FormPalindromo.html";
     }
 
-    @PostMapping("/validar")
+    @PostMapping("/palindrome")
     @ResponseBody
     public String comprobarDesdeForm(@RequestParam("palabra") String palabra) {
         boolean esPalindromo = service.esPalindromo(palabra);
